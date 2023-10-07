@@ -519,3 +519,86 @@ header a .fa-solid:hover {
 }
 
 /* discount section ends */
+
+.blog .title {
+	padding: 60px 0;
+}
+
+.blog .title p {
+	font-size: 24px;
+	font-weight: 700;
+	color: var(--secondary);
+}
+
+.blog .title span {
+	font-size: 60px;
+	font-weight: 700;
+	position: relative;
+	z-index: 1;
+}
+
+.blog .title span::after {
+	content: "blogs";
+	font-size: 200px;
+	font-weight: 700;
+	color: var(--grey);
+	position: absolute;
+	z-index: -1;
+	top: -120px;
+	left: -80px;
+
+}
+
+.blog .b-card {
+	padding: 5px;
+}
+
+.blog .b-card .b-img img {
+	display: block;
+	max-width: 100%;
+}
+
+.blog .b-card .b-con h3 {
+	padding: 15px 0;
+	font-size: 36px;
+	font-weight: 700;
+	color: var(--secondary);
+}
+
+.blog .b-card .b-con .bp-1 {
+	padding: 30px 0;
+	font-size: 18px;
+}
+
+.blog .b-card .b-con .b-sub {
+	display: inline-block;
+	width: 100%;
+	background-color: var(--lightblue);
+	padding: 5px;
+}
+
+.blog .b-card .b-con .b-sub .con-left {
+	float: left;
+}
+
+.blog .b-card .b-con .b-sub .con-left li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.blog .b-card .b-con .b-sub .con-left .bs-1 {
+	font-size: 48px;
+	font-weight: 700;
+	color: var(--secondary);
+}
+
+.blog .b-card .b-con .b-sub .con-right {
+	float: right;
+	margin-top: 20px;
+}
+
+.blog .b-card .b-con .b-sub .con-right li {
+	display: inline-block;
+	font-size: 14px;
+	padding: 5px;
+}
