@@ -483,3 +483,39 @@ header a .fa-solid:hover {
 }
 
 /* testimonial section ends */
+
+/* photo section start */
+.photo .photos row .w-2 img {
+	display: block;
+	width: 100%;
+}
+
+/* photo section ends */
+/* discount section start */
+.discount .row .d-card h4 {
+	font-size: 24px;
+	font-weight: 700;
+	color: var(--secondary);
+}
+
+.discount .row .d-card h2 {
+	font-size: 60px;
+	font-weight: 700;
+	padding: 20px 0 40px 0;
+}
+
+.discount .row .d-card .disimg-1 {
+	display: block;
+}
+
+.discount .row .d-card p {
+	font-size: 16px;
+	padding: 40px 0;
+}
+
+.discount .row .d-card .disimg-2 {
+	display: block;
+	width: 100%;
+}
+
+/* discount section ends */
