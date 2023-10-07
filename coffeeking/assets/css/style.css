@@ -434,3 +434,52 @@ header a .fa-solid:hover {
 }
 
 /* deler section ends */
+
+/* testimonial section start */
+.testimonial {
+	background-image: url("../images/test-bg.jpg")
+}
+
+.testimonial .t-con h2 {
+	font-size: 60px;
+	font-weight: 700;
+	color: var(--white);
+}
+
+.testimonial .t-con h5 {
+	font-size: 30px;
+	font-weight: 700;
+	color: var(--secondary);
+}
+
+.testimonial .t-con .t-sub .w-8 {
+	border: 5px solid var(--secondary);
+	margin: auto;
+}
+
+.testimonial .t-con .t-sub-con .ts-p1 {
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--white);
+	padding-top: 15px;
+}
+
+.testimonial .t-con .t-sub-con .ts-p2 {
+	font-size: 14px;
+	font-weight: 700s;
+	color: var(--white);
+	padding-bottom: 15px;
+}
+
+.testimonial .t-con .t-sub-con .ts-p3 {
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--white);
+}
+
+.testimonial .t-con .t-sub-con .ts-p4 {
+	color: var(--white);
+	font-size: 90px;
+}
+
+/* testimonial section ends */
