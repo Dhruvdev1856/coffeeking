@@ -520,6 +520,8 @@ header a .fa-solid:hover {
 
 /* discount section ends */
 
+/* blog section starts */
+
 .blog .title {
 	padding: 60px 0;
 }
@@ -602,3 +604,71 @@ header a .fa-solid:hover {
 	font-size: 14px;
 	padding: 5px;
 }
+
+/* blog section ends */
+
+/*footer section start */
+footer {
+	padding: 60px 0;
+	background-color: var(--black);
+}
+
+footer .content .row .con-1 p {
+	color: var(--secondary);
+	font-size: 16px;
+	padding: 30px 0 40px 0;
+}
+
+footer .content .row .con-1 button {
+	background-color: var(--secondary);
+	padding: 8px 36px;
+}
+
+footer .content .row .con-2 h3 {
+	font-size: 30px;
+	font-weight: 700;
+	color: var(--secondary);
+}
+
+footer .content .row .con-2 ul {
+	column-count: 2;
+	padding: 40px 0;
+}
+
+footer .content .row .con-2 ul li {
+	color: var(--white);
+	font-size: 18px;
+	font-weight: 700;
+	padding: 15px 0 0 0;
+}
+
+footer .content .row .con-2 ul li::before {
+	content: "\f105";
+	font-family: fontAwesome;
+	color: var(--secondary);
+	font-size: 12px;
+	padding: 0 8px 0 0;
+}
+
+footer .content .row .con-3 h3 {
+	font-size: 30px;
+	font-weight: 700;
+	color: var(--secondary);
+}
+
+footer .content .row .con-3 .f-subcon {
+	padding: 40px 0;
+
+}
+
+footer .content .row .con-3 .fc-1 {
+	color: var(--secondary);
+	padding-bottom: 10px;
+}
+
+footer .content .row .con-3 .fc-2 {
+	color: var(--white);
+	padding-bottom: 15px;
+}
+
+/* footer section ends */
