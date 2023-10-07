@@ -164,3 +164,81 @@ header a .fa-solid:hover{
 	padding:10px 0;
 }
 /* about section ends */
+
+/* product section start */
+.products{
+	background-color:var(--primary);
+} 
+.products .title{
+	padding-bottom:50px;
+}
+.products .title p{
+	font-size:24px;
+	font-weight:700;
+	color:var(--secondary);
+	padding-bottom:16px;
+}
+.products .title span{
+	font-size:60px;
+	font-weight:700;
+	position:relative;
+	z-index:1;
+	color:var(--white);
+}
+.products .title span::after{
+	content:"Products";
+	font-size:150px;
+	font-weight:700;
+	color:var(--darkgrey);
+	position:absolute;
+	z-index:-1;
+	top:-80px;
+	left:-100px;
+	
+}
+.products .row .p-card{
+	background-color:var(--white);
+	padding:20px 0;
+}
+.products .row .p-card h3{
+	font-size:24px;
+	font-weight:700;
+}
+.products .row .p-card p{
+	padding:20px 0;
+}
+.products .row .p-card .span-pa{
+	padding:15px 0;
+}
+.products .row .p-card .span-pa span{
+	padding:20px 0;
+	font-size:24px;
+	color:var(--secondary);
+}
+.products .p-card .p-card-btn a{
+	padding:8px 36px;
+	color:var(--white);
+	background-color:var(--secondary);
+	font-size:18px;
+	transition:all 0.5s linear;
+}
+.products .p-card .p-card-btn a:hover {
+	background-color:var(--black);
+	color:var(--white);
+}
+.products .p-btn{
+	padding:80px 0 0px 0;
+}
+.products .p-btn a{
+	border:1px solid var(--secondary);
+	padding:8px 36px;
+	color:var(--secondary);
+	background-color:var(--black);
+	font-size:18px;
+	transition:all 0.5s linear;
+}
+.products .p-btn a:hover {
+	background-color:var(--white);
+	color:var(--black);
+}
+/* product section end */
