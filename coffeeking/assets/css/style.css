@@ -242,3 +242,57 @@ header a .fa-solid:hover{
 	color:var(--black);
 }
 /* product section end */
+
+/* sales section starts */
+.sales .s-con h2{
+	font-size:40px;
+	font-weight:700;
+	padding:6px 0;
+}
+.sales .s-con p{
+	font-size:18px;
+	font-weight:300;
+	line-height:28px;
+	padding-bottom:30px;
+}
+.sales .s-country h3{
+	font-size:30px;
+	font-weight:700;
+	color:var(--secondary);
+	padding:6px 0;
+}
+.sales .s-country{
+	padding:20px 0;
+}
+.sales .s-country ul{
+	column-count:3;
+}
+.sales .s-country ul li{
+	padding:10px 0;
+	font-weight:700;
+	font-size:18px;
+}
+.sales .s-country ul li::before{
+	content:"\f105";
+	font-family:fontAwesome;
+	color: var(--black);
+	font-size:12px;
+	padding:0 8px 0 0;
+}
+.sales .s-btn a{
+	padding:8px 36px;
+	color:var(--white);
+	background-color:var(--secondary);
+	font-size:18px;
+	transition:all 0.5s linear;
+}
+.sales .s-btn a:hover {
+	background-color:var(--white);
+	color:var(--black);
+	border:1px solid var(--black);
+}
+.sales .s-img img{
+	display:block;
+	width:100%;
+}
+/* sales section end */
